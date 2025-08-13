@@ -53,3 +53,7 @@ out/
 
 # TypeScript build outputs
 *.tsbuildinfo
+
+# Ignoring the steam patch notes to encourage frequent running of the scraper
+steamPatchNotes.json
+patchNotesIndex.json

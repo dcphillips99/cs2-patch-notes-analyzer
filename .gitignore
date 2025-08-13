@@ -1,0 +1,55 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+.tmp/
+.temp/
+
+# Logs
+logs
+*.log
+*.log.*
+*.out
+*.pid
+*.pid.lock
+
+# Coverage & test artifacts
+coverage/
+*.lcov
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE & editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Optional cache folders
+.cache/
+.parcel-cache/
+.next/
+out/
+
+# Express-specific
+**/uploads/
+**/temp/
+
+# React dev server files
+*.hot-update.*
+
+# TypeScript build outputs
+*.tsbuildinfo
